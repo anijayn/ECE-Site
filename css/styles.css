@@ -1,0 +1,61 @@
+header{
+    text-align:center;
+    font-size:250%;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;  
+}
+header a:hover {
+    color:black;
+    background-color: orange;
+  }
+  
+table {
+    border-spacing: 5px;
+    text-align: center;
+    border: 1px solid black; 
+    background: linear-gradient(to bottom, #2193b0 0%, #6dd5ed 100%);
+    width:100%;
+    }
+  td {
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 125%;
+  }
+  th{
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: bold;
+
+  }
+  a:link {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+    background-color: whitesmoke;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+    
+  }
+
+  @media only screen and (max-device-width: 480px) {
+      table{
+          width:10%
+      }
+      header{
+          font-size:100%;
+          text-align:center;
+      }
+
+}
